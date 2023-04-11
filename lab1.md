@@ -16,4 +16,5 @@
 *cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 ![Image](commands.png)
 8. Try the same commands on your own computer 
-
+![Image](own.png)
+![Image](own1.png)
