@@ -1,6 +1,6 @@
 # Lab Report 1
 * Download visual studio code at  https://code.visualstudio.com/
-2. Open a window in VScode like this:  
+* Open a window in VScode like this:  
 
   ![Image](vscode.png)
 
