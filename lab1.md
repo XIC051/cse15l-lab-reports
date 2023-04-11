@@ -1,11 +1,14 @@
 # Lab Report 1
 * Download visual studio code at  https://code.visualstudio.com/
+
 * Open a window in VScode like this:  
 
   ![Image](vscode.png)
 
 * Open your terminal inside VScode using the Terminal → New Terminal menu option
+
 * Type ssh cs15lsp23fq@ieng6.ucsd.edu into the terminal 
+
 * Enter your password and if the connection is successful, the terminal should look like this:
 
   ![Image](remote.png)
