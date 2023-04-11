@@ -18,3 +18,6 @@
 8. Try the same commands on your own computer 
 ![Image](own.png)
 ![Image](own1.png)
+9. If you want to log out of the remote server in your terminal, use either
+*Ctrl-D
+*Run the command exit
