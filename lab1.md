@@ -1,16 +1,16 @@
 # Lab Report 1
-1. Download visual studio code at  https://code.visualstudio.com/
+* Download visual studio code at  https://code.visualstudio.com/
 2. Open a window in VScode like this:  
 
   ![Image](vscode.png)
 
-3. Open your terminal inside VScode using the Terminal → New Terminal menu option
-4. Type ssh cs15lsp23fq@ieng6.ucsd.edu into the terminal 
-5. Enter your password and if the connection is successful, the terminal should look like this:
+* Open your terminal inside VScode using the Terminal → New Terminal menu option
+* Type ssh cs15lsp23fq@ieng6.ucsd.edu into the terminal 
+* Enter your password and if the connection is successful, the terminal should look like this:
 
   ![Image](remote.png)
 
-6. Try some commands on the remote computer using the terminal in the vscode 
+* Try some commands on the remote computer using the terminal in the vscode 
   * cd ~
   * cd
   * ls -lat
@@ -21,11 +21,11 @@
 
   ![Image](command.png)
   
-7. Try the same commands on your own computer 
+* Try the same commands on your own computer 
   
   ![Image](own.png)
   ![Image](own2.png)
   
-8. If you want to log out of the remote server in your terminal, use either
+* If you want to log out of the remote server in your terminal, use either
   * Ctrl-D
   * Run the command exit
