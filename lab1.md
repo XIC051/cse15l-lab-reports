@@ -6,7 +6,7 @@
 4. Type ssh cs15lsp23fq@ieng6.ucsd.edu in the terminal 
 5. Enter your password and if the connection is successful, the terminal should look like this:
 ![Image](remote.png)
-7. trying some commands on the remote computer using the terminal in the vscode 
+7. Try some commands on the remote computer using the terminal in the vscode 
 *cd ~
 *cd
 *ls -lat
@@ -15,4 +15,5 @@
 *cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 *cat /home/linux/ieng6/cs15lsp23/public/hello.txt
 ![Image](commands.png)
-  
+8. Try the same commands on your own computer 
+
