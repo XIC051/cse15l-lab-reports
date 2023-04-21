@@ -7,11 +7,10 @@
 
 * Open your terminal inside VScode using the Terminal → New Terminal menu option
 
-* Type 
+* Type the following command to the terminal:
     ```
     ssh cs15lsp23fq@ieng6.ucsd.edu
     ```
-  into the terminal 
 
 * Enter your password and if the connection is successful, the terminal should look like this:
 
