@@ -18,10 +18,11 @@
 
 * Try some commands on the remote computer using the terminal in the vscode 
   * cd ~
-    *changes the current directory to the home directory of the current user. 
+    * changes the current directory to the home directory of the current user. 
   * cd
-    * 
+    * changes the current directory to the home directory of the current user (same as cd ~)
   * ls -lat
+    * lists all files in the current directory, including hidden files (-a), sorted by modification time in reverse order (-t) and with details showing permissions and ownership (-l)
   * ls -a
   * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
   * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
