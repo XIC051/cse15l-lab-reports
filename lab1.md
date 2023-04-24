@@ -18,6 +18,7 @@
 
 * Try some commands on the remote computer using the terminal in the vscode 
   * cd ~
+    *  changes the current directory to the home directory of the current user. 
   * cd
   * ls -lat
   * ls -a
