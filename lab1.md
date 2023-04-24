@@ -24,7 +24,7 @@
   * ls -lat
     * lists all files in the current directory, including hidden files (-a), sorted by modification time in reverse order (-t) and with details showing permissions and ownership (-l)
   * ls -a
-    * lists all files in the current directory, including hidden files (-a)
+    * lists all files in the current directory, including hidden files (-a)  
   * ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
     * lists all files in the specified directory, where <directory> is the full path to the directory. In this case, the directory is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, which is the home directory of another group member
   * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
