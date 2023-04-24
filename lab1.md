@@ -14,7 +14,7 @@
 
 * Enter your password and if the connection is successful, the terminal should look like this:
 
-  ![Image](remote.png)
+  ![Image](new.png)
 
 * Try some commands on the remote computer using the terminal in the vscode 
   * cd ~
