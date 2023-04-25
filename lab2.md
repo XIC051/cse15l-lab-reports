@@ -6,7 +6,7 @@
 /add-message?s=Hello
 ```
 Which methods in your code are called?
-* The <u>main metho</u> of the StringServer class is called with the command-line arguments 4000
+* The **main method** of the StringServer class is called with the command-line arguments 4000
 What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
