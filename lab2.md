@@ -63,6 +63,9 @@ public class ArrayTests {
       assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
    }
 ```
+* running the test
+![Image](failture.png)
+![Image](success.png)
 
 # Part 3
 From week 2 and 3, the biggest thing I learned is to create a web server. 
