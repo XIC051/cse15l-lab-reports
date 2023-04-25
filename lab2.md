@@ -64,7 +64,7 @@ public class ArrayTests {
    }
 ```
 * running the test
-![Image](failture.png)
+![Image](failure.png)
 ![Image](success.png)
 
 * the bug
