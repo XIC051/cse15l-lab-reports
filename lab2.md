@@ -79,13 +79,7 @@ public class ArrayTests {
   * after 
    ```
     double sum = 0;
-    int counter = 0;
     int len = arr.length;
-    for(double num: arr) {
-      if(num == lowest) { 
-        counter++;
-      }
-    }
     for(double num: arr) { 
       sum += num;
     }
@@ -94,7 +88,7 @@ public class ArrayTests {
     return sum / (arr.length - 1);
    ```
   * explanations:
-    * By adding a counter, 
+    * By suming up all the numbers first without comparing it to the lowest value, and then minus the lowest number, we can avoid subtracting more than one numbers if there are several lowest numbers with the same value. 
 
 # Part 3
 From week 2 and 3, the biggest thing I learned is to create a web server. 
