@@ -67,6 +67,35 @@ public class ArrayTests {
 ![Image](failture.png)
 ![Image](success.png)
 
+* the bug
+  * before
+  ```
+  double sum = 0;
+  for(double num: arr) {
+      if(num != lowest) { sum += num; }
+    }
+    return sum / (arr.length - 1);
+  ```
+  * after 
+   ```
+    double sum = 0;
+    int counter = 0;
+    int len = arr.length;
+    for(double num: arr) {
+      if(num == lowest) { 
+        counter++;
+      }
+    }
+    for(double num: arr) { 
+      sum += num;
+    }
+    sum -= lowest;
+    len--;
+    return sum / (arr.length - 1);
+   ```
+  * explanations:
+    * By adding a counter, 
+
 # Part 3
 From week 2 and 3, the biggest thing I learned is to create a web server. 
 
