@@ -65,7 +65,25 @@
 * Try the same commands on your own computer 
   
   ![Image](own.png)
+  * explanations of each commands:
+    * ls -a
+      * lists all the files and directories in your home directory (/Users/chenxiaojie)
+    * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+      * The error message No such file or directory means that the file or directory specified in the command does not exist as I don't have access to the contents on the remote computer from my own terminal
+    * cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+      * As the hello.txt isn't being successfully copied to my home directory, there will be an error message saying no such file or directory 
+  
+  
   ![Image](own2.png)
+  * explanations of each commands:
+    * cd ~
+      * it changes the current directory to my home directory, which is "/Users/chenxiaojie" in this case
+    * cd 
+      * the same command as the previous one, so the current directory stays as where it is
+    * ls -lat
+      * the output is all the files and directories in my home directory
+      * there are total 5848 files
+  
   
 * If you want to log out of the remote server in your terminal, use either
   * Ctrl-D
