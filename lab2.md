@@ -46,22 +46,22 @@ How do the values of any relevant fields of the class change from this specific 
 import static org.junit.Assert.*;
 import org.junit.*;
 public class ArrayTests {
- @Test 
- public void averageWithoutLowestTestFailure() { 
-    double[] input1 = {1.0, 1.0, 1.0, 1.0};
-    assertEquals(1/3, ArrayExamples.averageWithoutLowest(input1), 0.1);
-  }
+   @Test 
+   public void averageWithoutLowestTestFailure() { 
+      double[] input1 = {1.0, 1.0, 1.0, 1.0};
+      assertEquals(1/3, ArrayExamples.averageWithoutLowest(input1), 0.1);
+   }
 ```
 
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
 public class ArrayTests {
- @Test 
- public void averageWithoutLowestTestSuccess() { 
-    double[] input1 = {1.0, 2.0, 3.0, 4.0};
-    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
-  }
+   @Test 
+   public void averageWithoutLowestTestSuccess() { 
+      double[] input1 = {1.0, 2.0, 3.0, 4.0};
+      assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
+   }
 ```
 
 # Part 3
