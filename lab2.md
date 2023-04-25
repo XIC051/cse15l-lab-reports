@@ -91,5 +91,5 @@ public class ArrayTests {
     * By suming up all the numbers first without comparing it to the lowest value, and then minus the lowest number, we can avoid subtracting more than one numbers if there are several lowest numbers with the same value. 
 
 # Part 3
-From week 2 and 3, the biggest thing I learned is to create a web server. 
+From week 2 and 3, the biggest thing I learned is to create a web server and how to write the code to display what we want to be displayed in our web server. 
 
