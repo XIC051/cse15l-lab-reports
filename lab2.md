@@ -1,7 +1,7 @@
-#Part 1
+# Part 1
 * code for StringServer: 
 ![Image](code.png)
-*screenshot of using 
+* screenshot of using 
 ![Image](hello.png)
 ```
 /add-message?s=Hello
@@ -20,7 +20,7 @@ What are the relevant arguments to those methods, and the values of any relevant
 How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 * The message field changes from empty string to "\nHello" 
 
-*screenshot of using 
+* screenshot of using 
 ![Image](how_are_you.png)
 ```
 /add-message?s=How are you
@@ -40,5 +40,30 @@ How do the values of any relevant fields of the class change from this specific 
 * The message field changes from "\nHello" to "\nHello\nHow are you"
 
 
-#Part 2
+# Part 2
+
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+public class ArrayTests {
+ @Test 
+ public void averageWithoutLowestTestFailure() { 
+    double[] input1 = {1.0, 1.0, 1.0, 1.0};
+    assertEquals(1/3, ArrayExamples.averageWithoutLowest(input1), 0.1);
+  }
+```
+
+```
+import static org.junit.Assert.*;
+import org.junit.*;
+public class ArrayTests {
+ @Test 
+ public void averageWithoutLowestTestSuccess() { 
+    double[] input1 = {1.0, 2.0, 3.0, 4.0};
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input1), 0.1);
+  }
+```
+
+# Part 3
+From week 2 and 3, the biggest thing I learned is to create a web server. 
 
