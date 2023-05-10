@@ -1,5 +1,5 @@
 ```
-grep -l "bar" 911report/*
+(base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -l "bar" 911report/*
 911report/chapter-1.txt
 911report/chapter-11.txt
 911report/chapter-12.txt
@@ -16,7 +16,7 @@ grep -l "bar" 911report/*
 911report/chapter-8.txt
 ```
 ```
-grep -l "interesting" 911report/*
+(base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -l "interesting" 911report/*
 911report/chapter-11.txt
 911report/chapter-13.5.txt
 911report/chapter-3.txt
