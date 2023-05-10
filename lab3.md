@@ -180,5 +180,13 @@ example 3:
 grep -v: This option is used to invert the match, meaning that it will print all lines that do not match the specified pattern. For example, the command grep -v "apple" fruits.txt will print all lines in the fruits.txt file that do not contain the word "apple".
 
 example 4:
-
+```
+base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/chapter-1.txt
+243
+```
+```
+(base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "in" 911report/chapter-11.txt
+553
+```
+grep -c: This option counts the number of matches instead of printing the matching lines. For example, the command grep -c "apple" fruits.txt will print the number of times the word "apple" appears in the fruits.txt file, without printing the actual lines that contain the word.
                 
