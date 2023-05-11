@@ -1,4 +1,9 @@
 example 1:
+Where I found it: 
+        I asked chatGPT.
+Explanation: -l
+        This option causes grep to print only the names of the files that contain the pattern that follows, instead of the matched lines. It can be helpful when there is a very larger number of files and I only want to see which files contain the pattern without looking at the contents of each file. 
+        
 ```
 (base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -l "bar" 911report/*
 911report/chapter-1.txt
@@ -22,9 +27,13 @@ example 1:
 911report/chapter-13.5.txt
 911report/chapter-3.txt
 ```
--l option: This option stands for "files with matches" and causes grep to print only the names of the files that contain the pattern. For example, if you want to find all files in the current directory that contain the word "bar," you can use the following command: grep -l "bar" *.
 
 example 2:
+where I found it: 
+        I asked chatGPT.
+Explanation: -i 
+        This option enables case-insentitive searching, so it will print out all letters that match the pattern of the given command  regardless of whether it is capitalized or not. It is helpful when I am not sure of the case of the string I want to search for. 
+            
 ```
 (base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -i "CLINICAL" biomed/1468-6708-3-1.txt
         decreased mortality. Clinical trials powered to detect
@@ -48,9 +57,13 @@ example 2:
             After the millennium alert, the government relaxed. Counterterrorism went back to
                 millennium phenomenon was not repeated. FBI field offices apparently saw no abnormal
 ```
-grep -i: This option enables case-insensitive searching. By default, grep is case-sensitive, meaning that it distinguishes between uppercase and lowercase letters. However, if you use the -i option, grep will treat all letters as if they were lowercase, allowing you to find matches regardless of the case of the letters. For example, the command grep -i "apple" fruits.txt will find all instances of "apple" in the fruits.txt file, regardless of whether it is capitalized or not.
+
 
 example 3:
+where I found it: 
+        I asked chatGPT.
+Explanation: -v
+        It will print out all lines that do not match the specified string/pattern. It can be useful when I want to filter out specific lines or patterns from a file.       
 ```
 (base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -v "a" biomed/1468-6708-3-1.txt   
 
@@ -177,9 +190,12 @@ example 3:
     
   
 ```
-grep -v: This option is used to invert the match, meaning that it will print all lines that do not match the specified pattern. For example, the command grep -v "apple" fruits.txt will print all lines in the fruits.txt file that do not contain the word "apple".
 
 example 4:
+where I found it: 
+        I asked chatGPT.
+Explanation: -c
+        It will prin out the counts of the number of matches instead of printing the matching lines. It can be useful when I only want how many times a pattern occurs in a file or set of files instead of the actual lines themselves.
 ```
 base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/chapter-1.txt
 243
@@ -188,5 +204,5 @@ base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/c
 (base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "in" 911report/chapter-11.txt
 553
 ```
-grep -c: This option counts the number of matches instead of printing the matching lines. For example, the command grep -c "apple" fruits.txt will print the number of times the word "apple" appears in the fruits.txt file, without printing the actual lines that contain the word.
+
                 
