@@ -1,4 +1,5 @@
 example 1:
+---
 
 Where I found it: 
 
@@ -33,10 +34,10 @@ Explanation: -l
 911report/chapter-13.5.txt
 911report/chapter-3.txt
 ```
-Horizontal rule:
 
----
 example 2:
+---
+
 
 where I found it: 
 
@@ -71,11 +72,8 @@ Explanation: -i
             After the millennium alert, the government relaxed. Counterterrorism went back to
                 millennium phenomenon was not repeated. FBI field offices apparently saw no abnormal
 ```
-Horizontal rule:
-
----
-
 example 3:
+---
 
 where I found it: 
 
@@ -213,10 +211,10 @@ Explanation: -v
     
   
 ```
-Horizontal rule:
 
----
+
 example 4:
+---
 
 where I found it: 
 
