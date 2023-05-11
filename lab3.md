@@ -1,7 +1,11 @@
 example 1:
+
 Where I found it: 
+
         I asked chatGPT.
+        
 Explanation: -l
+
         This option causes grep to print only the names of the files that contain the pattern that follows, instead of the matched lines. It can be helpful when there is a very larger number of files and I only want to see which files contain the pattern without looking at the contents of each file. 
         
 ```
@@ -29,9 +33,13 @@ Explanation: -l
 ```
 
 example 2:
+
 where I found it: 
+
         I asked chatGPT.
+        
 Explanation: -i 
+
         This option enables case-insentitive searching, so it will print out all letters that match the pattern of the given command  regardless of whether it is capitalized or not. It is helpful when I am not sure of the case of the string I want to search for. 
             
 ```
@@ -60,9 +68,13 @@ Explanation: -i
 
 
 example 3:
+
 where I found it: 
+
         I asked chatGPT.
+        
 Explanation: -v
+
         It will print out all lines that do not match the specified string/pattern. It can be useful when I want to filter out specific lines or patterns from a file.       
 ```
 (base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -v "a" biomed/1468-6708-3-1.txt   
@@ -192,9 +204,13 @@ Explanation: -v
 ```
 
 example 4:
+
 where I found it: 
+
         I asked chatGPT.
+        
 Explanation: -c
+
         It will prin out the counts of the number of matches instead of printing the matching lines. It can be useful when I only want how many times a pattern occurs in a file or set of files instead of the actual lines themselves.
 ```
 base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/chapter-1.txt
