@@ -226,7 +226,7 @@ Explanation: -c
         
         
 ```
-base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/chapter-1.txt
+(base) chenxiaojie@chenxiaojiedeMacBook-Air technical % grep -c "and" 911report/chapter-1.txt
 243
 ```
 
