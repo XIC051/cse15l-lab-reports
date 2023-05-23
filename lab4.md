@@ -38,8 +38,6 @@
 ![Image](exit_vim.png)
   
 - <enter> to exit officially
-  
-![Image](vim.png)
 
 #### 5. Run the tests, demonstrating that they now succeed
 ##### Key Pressed: 
