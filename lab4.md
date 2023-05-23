@@ -6,7 +6,7 @@
 #### 2. Clone your fork of the repository from your Github account
 ##### Key Pressed: 
 - `git clone https://github.com/ucsd-cse15l-s23/lab7.git"` to clone my fork of the repository.
-![Image](clone.png)
+![Image](git.png)
 
 #### 3. Run the tests, demonstrating that they fail
 ##### Key Pressed: 
