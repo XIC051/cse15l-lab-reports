@@ -51,7 +51,7 @@
 - I type in `git add ListExamples.java`.
 - I type in `git commit -m "index1 to index2"` with "index1 to index2" as my commit message. 
   
-![Image](git.png)  
+![Image](hi.png)  
   
   
   
