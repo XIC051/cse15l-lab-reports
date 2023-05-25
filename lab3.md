@@ -251,7 +251,7 @@ where I found it:
 
 > I asked chatGPT: what does grep -c do
 
-> > output of chatGPT：
+> output of chatGPT：
 
 The grep -c command-line option is used with the grep command to count the number of lines that match a given pattern in a file or multiple files. It stands for "count" option.
 
