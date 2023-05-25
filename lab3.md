@@ -3,10 +3,16 @@ example 1:
 
 Where I found it: 
 
-> I asked chatGPT.
-        
-Explanation: -l
+> I asked chatGPT: what does grep -l do
+> output of chatGPT：
+The grep -l command-line option is used with the grep command to display only the names of the files that contain a match for the specified pattern. It stands for "list" or "file-list" option.
 
+When you run grep -l followed by a pattern and one or more filenames or directory names, grep searches for the pattern in the specified files or directories. Instead of displaying the actual matching lines, grep outputs only the names of the files that contain at least one match.
+
+Using the -l option can be helpful when you want to quickly identify the files that have matches for a particular pattern without examining the actual content of the matches. 
+ 
+How I changed it:  
+Explanation: -l
 > This option causes grep to print only the names of the files that contain the pattern that follows, instead of the matched lines. It can be helpful when there is a very larger number of files and I only want to see which files contain the pattern without looking at the contents of each file. 
         
         
@@ -41,8 +47,16 @@ example 2:
 
 where I found it: 
 
-> I asked chatGPT.
-        
+> I asked chatGPT:  what does grep -i do
+> output of chatGPT：
+The grep -i command-line option is used with the grep command to perform a case-insensitive search. It stands for "ignore case" option.
+
+When you run grep -i followed by a pattern and one or more filenames or directory names, grep searches for the pattern in the specified files or directories. The -i option tells grep to ignore the distinction between uppercase and lowercase letters while matching the pattern.
+
+The -i option is useful when you want to search for a pattern in a case-insensitive manner, without being concerned about the letter case. 
+
+
+How I changed it:          
 Explanation: -i 
 
 > This option enables case-insentitive searching, so it will print out all letters that match the pattern of the given command  regardless of whether it is capitalized or not. It is helpful when I am not sure of the case of the string I want to search for. 
@@ -76,9 +90,16 @@ example 3:
 ---
 
 where I found it: 
+> I asked chatGPT: what does grep -v do
+> output of chatGPT：
 
-> I asked chatGPT.
+The grep -v command-line option is used with the grep command to invert the matching pattern. It stands for "invert match" or "invert selection" option.
+
+When you run grep -v followed by a pattern and one or more filenames or directory names, grep searches for lines or contents that do not match the specified pattern.
+
+The -v option is useful when you want to exclude specific lines or contents from the output. It allows you to filter out lines or contents that match the pattern and focus on the remaining ones.
         
+How I change it: 
 Explanation: -v
 
 > It will print out all lines that do not match the specified string/pattern. It can be useful when I want to filter out specific lines or patterns from a file.      
@@ -218,8 +239,16 @@ example 4:
 
 where I found it: 
 
-> I asked chatGPT.
-        
+> I asked chatGPT: what does grep -c do
+> > output of chatGPT：
+
+The grep -c command-line option is used with the grep command to count the number of lines that match a given pattern in a file or multiple files. It stands for "count" option.
+
+When you run grep -c followed by a pattern and one or more filenames or directory names, grep searches for lines that match the specified pattern and returns the count of matching lines instead of printing the actual lines.
+
+The -c option is useful when you only want to know the count of lines that match a specific pattern without displaying the actual content. It allows you to quickly determine the number of occurrences of a pattern in a file or a set of files.
+
+How I change it: 
 Explanation: -c
 
 > It will prin out the counts of the number of matches instead of printing the matching lines. It can be useful when I only want how many times a pattern occurs in a file or set of files instead of the actual lines themselves.
