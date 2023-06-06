@@ -27,11 +27,11 @@ My current working directory is `/Users/chenxiaojie/Documents/GitHub/lab3`, and 
 
 I then created a bash script called "test.sh" inside my current directory lab3, which include three commands: 
 
-I defined CPATH in my first command so I can directly using the path during the following commands. 
+1. I defined CPATH in my first command so I can directly using the path during the following commands. 
 
-For the second command, I was trying to compile all the Java source code files in my current working directory. 
+2. For the second command, I was trying to compile all the Java source code files in my current working directory. 
 
-Then for the third command, I was trying to execute the JUnit tests in Java.  
+3. Then for the third command, I was trying to execute the JUnit tests in Java.  
 
 ```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
