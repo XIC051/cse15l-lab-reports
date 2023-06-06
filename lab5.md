@@ -1,4 +1,4 @@
-1. Post from a student
+## 1. Post from a student
 ### What environment are you using (computer, operating system, web browser, terminal/editor, and so on)? 
 
 Computer: MacBook
@@ -55,7 +55,7 @@ My input in the terminal is:
 test.sh
 ```
 
-2. Response from TA
+## 2. Response from TA
 
 I have noticed a small mistake in your `test.sh` bash script. 
 
@@ -66,7 +66,7 @@ So you may want to add a dollar sign "$" in front of `CPATH` in your second and 
 script again. Then check whether it gives you the expected output. 
 
 
-3. Student's response
+## 3. Student's response
 
 I modified my second and third command as you suggested and it works. The bug was due to I forgot to add a dollar sign in front of CPATH,
 
@@ -79,7 +79,7 @@ The following is the screenshot of the updated command and the new output.
 ![Image](modified.png)
 ![Image](modified2.png)
 
-4. Information about SetUp
+## 4. Information about SetUp
 
 #### File and structure needed:
 
