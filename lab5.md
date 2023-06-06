@@ -103,7 +103,7 @@ The following is the screenshot of the updated command and the new output.
 ```
 #### The contents of each file before fixing the bug:
 
-## ArrayExamples.java: 
+##### ArrayExamples.java: 
 
 Three methods: 
 
@@ -119,11 +119,11 @@ Returns a *new* array with all the elements of the input array in reversed order
 
 Averages the numbers in the array (takes the mean), but leaves out the lowest number when calculating. Returns 0 if there are no elements or just 1 element in the array
 
-## ArrayTests.java: 
+##### ArrayTests.java: 
 
 Two JUnite tests, testing methods in ArrayExamples.java
 
-## test.sh:
+##### test.sh:
 
 Two commands that compile all the `.java` files in this current directory, 
 
