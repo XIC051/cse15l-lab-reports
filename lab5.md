@@ -112,15 +112,15 @@ The following is the screenshot of the updated command and the new output.
 
 Three methods: 
 
-1. `reverseInPlace(int[] arr)`
+- `reverseInPlace(int[] arr)`
 
 Changes the input array to be in reversed order
 
-2. `reversed(int[] arr)`
+- `reversed(int[] arr)`
 
 Returns a *new* array with all the elements of the input array in reversed order
 
-3. `averageWithoutLowest(double[] arr)`
+- `averageWithoutLowest(double[] arr)`
 
 Averages the numbers in the array (takes the mean), but leaves out the lowest number when calculating. Returns 0 if there are no elements or just 1 element in the array
 
