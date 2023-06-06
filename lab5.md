@@ -84,12 +84,19 @@ The following is the screenshot of the updated command and the new output.
 #### File and structure needed:
 
 /Users/chenxiaojie/Documents/GitHub/
+
 |- LAB3/
+
   | - lib/
+  
     | - hamcrest-core-1.3.jar
+    
     | - junit-4.13.2.jar
+    
   | - ArrayExamples.java
+  
   | - ArrayTests.java
+  
   | - test.sh
   
 #### The contents of each file before fixing the bug:
@@ -98,15 +105,15 @@ The following is the screenshot of the updated command and the new output.
 
 Three methods: 
 
-- reverseInPlace(int[] arr)
+1. `reverseInPlace(int[] arr)`
 
 Changes the input array to be in reversed order
 
-- reversed(int[] arr)
+2. `reversed(int[] arr)`
 
 Returns a *new* array with all the elements of the input array in reversed order
 
-- averageWithoutLowest(double[] arr)
+3. `averageWithoutLowest(double[] arr)`
 
 Averages the numbers in the array (takes the mean), but leaves out the lowest number when calculating. Returns 0 if there are no elements or just 1 element in the array
 
