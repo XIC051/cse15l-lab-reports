@@ -211,7 +211,9 @@ To be more specific, the second command `javac -cp CPATH *.java` and the third c
 
 (4) A description of what to edit to fix the bug:
 
-Inside `test.sh` bash script, add a dollar sign "$" before the variable CPATH. 
+Inside `test.sh` bash script, add a dollar sign "$" before the variable CPATH in commands `javac -cp CPATH *.java` and `java -cp CPATH 
+
+org.junit.runner.JUnitCore ArrayTests`. 
 
 # Part 2
 
