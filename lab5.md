@@ -83,6 +83,7 @@ The following is the screenshot of the updated command and the new output.
 
 #### File and structure needed:
 
+```
 /Users/chenxiaojie/Documents/GitHub/
 
 |- LAB3/
@@ -99,6 +100,7 @@ The following is the screenshot of the updated command and the new output.
   
   | - test.sh
   
+```
 #### The contents of each file before fixing the bug:
 
 ## ArrayExamples.java: 
