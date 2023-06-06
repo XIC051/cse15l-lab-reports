@@ -1,3 +1,4 @@
+# Part 1
 ## 1. Post from a student
 ### What environment are you using (computer, operating system, web browser, terminal/editor, and so on)? 
 
@@ -81,7 +82,7 @@ The following is the screenshot of the updated command and the new output.
 
 ## 4. Information about SetUp
 
-#### File and structure needed:
+(1) File and structure needed:
 
 ```
 /Users/chenxiaojie/Documents/GitHub/
@@ -101,7 +102,7 @@ The following is the screenshot of the updated command and the new output.
   | - test.sh
   
 ```
-#### The contents of each file before fixing the bug:
+(2) The contents of each file before fixing the bug:
 
 ##### ArrayExamples.java: 
 
@@ -127,15 +128,20 @@ Two JUnite tests, testing methods in ArrayExamples.java
 
 Two commands that compile all the `.java` files in this current directory, 
 
-#### The full command line (or lines) you ran to trigger the bug:
+(3) The full command line (or lines) you ran to trigger the bug:
 
 `test.sh`
 
-To be more specific, the second command `javac -cp CPATH *.java` and the third command `java -cp CPATH org.junit.runner.JUnitCore ArrayTests` are the trigger. 
+To be more specific, the second command `javac -cp CPATH *.java` and the third command `java -cp CPATH org.junit.runner.JUnitCore ArrayTests` are the triggers. 
 
-#### A description of what to edit to fix the bug:
+(4) A description of what to edit to fix the bug:
 
 Inside `test.sh` bash script, add a dollar sign "$" before the variable CPATH. 
 
+# Part 2
+
+Reflection:
+
+The coolest thing I learned in the second half is the the text editor Vim. It is really efficient and convenient when we want to edit a code or text file. It has many keyboard shortcuts and many different modes like Normal mode, Insert mode, Visual mode to choose from. Another thing I found useful is bash script, it is useful to avoid competitive coding if I want to type in similar commands several times. 
 
 
