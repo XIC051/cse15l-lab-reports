@@ -38,9 +38,13 @@ Explanation:
 Explanation: 
 
 - `vim ListExamples.java` to enter vim. 
+
 - **k** 6 times to move the cursor to the line of the while loop. 
+
 - **j** 17 times so that the cursor reaches the line I need to make edits on. 
+
 - **l** 11 times so that the cursor reaches the character "1" in "index1" exactly. 
+
 - **x** to delete character "1".
 
 ![Image](1_vim.png) 
@@ -54,6 +58,7 @@ Explanation:
 ![Image](after_vim.png) 
 
 - **<esc>** to exit insertion mode. 
+  
 - **:**, **w**, **q**, respectively to save my changes and exit vim. 
   
 ![Image](exit_vim.png)
