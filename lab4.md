@@ -1,6 +1,6 @@
 #### 1. Login to ieng6
 ##### Key Pressed: 
-- `ssh cs15lsp23fq@ieng6.ucsd.edu<Enter>`
+- `ssh<Space>cs15lsp23fq@ieng6.ucsd.edu<Enter>`
 
 Explanation: 
 
@@ -10,7 +10,7 @@ to login to ieng6 directly
 
 #### 2. Clone your fork of the repository from your Github account
 ##### Key Pressed: 
-- `git clone https://github.com/ucsd-cse15l-s23/lab7.git<Enter>` 
+- `git<Space>clone<Space>https://github.com/ucsd-cse15l-s23/lab7.git<Enter>` 
 
 Explanation:
 
@@ -20,24 +20,24 @@ to clone my fork of the repository
 
 #### 3. Run the tests, demonstrating that they fail
 ##### Key Pressed: 
-- `cd lab7<Enter>bash test.sh<Enter>` 
+- `cd<Space>lab7<Enter>bash<Space>test.sh<Enter>` 
 
 Explanation:
 
-- `cd lab7<Enter>` to change my working directory to lab7
+- `cd<Space>lab7<Enter>` to change my working directory to lab7
 
-- `bash test.sh<Enter>` to run the test. 
+- `bash<Space>test.sh<Enter>` to run the test. 
 
 ![Image](run_fail.png)
 
 #### 4. Edit the code file to fix the failing test
 ##### Key Pressed: 
 
-- `vim ListExamples.javakkkkkklllllllllllxi2<esc>:wq<enter>`
+- `vim<Space>ListExamples.javakkkkkklllllllllllxi2<esc>:wq<enter>`
 
 Explanation: 
 
-- `vim ListExamples.java` to enter vim. 
+- `vim<Space>ListExamples.java` to enter vim. 
 
 - **k** 6 times to move the cursor to the line of the while loop. 
 
@@ -68,7 +68,7 @@ Explanation:
 #### 5. Run the tests, demonstrating that they now succeed
 ##### Key Pressed: 
   
-- `bash grade.sh<Enter>`
+- `bash<Space>grade.sh<Enter>`
   
 Explanation:
   
@@ -79,22 +79,22 @@ to run the test again.
 #### 6. Commit and push the resulting change to your Github account 
 ##### Key Pressed: 
   
-- `git add ListExamples.java<Enter>git commit -m "index1 to index2"<Enter>git remote add origin git@github.com:XIC051/lab7.git<Enter>git push origin main<Enter>`
+- `git<Space>add<Space>ListExamples.java<Enter>git<Space>commit<Space>-m<Space>"index1 to index2"<Enter>git<Space>remote<Space>add<Space>origin<Space>git@github.com:XIC051/lab7.git<Enter>git<Space>push<Space>origin<Space>main<Enter>`
 
 Explanation: 
-- `git add ListExamples.java` 
+- `git<Space>add<Space>ListExamples.java` 
   
 This command adds the file "ListExamples.java" to the Git staging area. It prepares the file to be included in the next commit.
   
-- `git commit -m "index1 to index2"` 
+- `git<Space>commit<Space>-m<Space>"index1 to index2"` 
  
 creates a new commit with commit message "index1 to index2"
 
-- `git remote add origin git@github.com:XIC051/lab7.git`
+- `git<Space>remote<Space>add<Space>origin<Space>git@github.com:XIC051/lab7.git`
   
 adds a new remote named "origin" to my Git repository. 
   
-- `git push origin main`
+- `git<Space>push<Space>origin<Space>main`
   
 This command pushes the commits in local branch "main" to the remote repository named "origin". It uploads the changes I just made to the remote repository on GitHub.
   
